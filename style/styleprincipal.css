@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(146, 146, 146);
+}
+#depliant{
+list-style-type: none;
+text-align: right;
+margin-right: 1cm;
+}
+
+#depliant li {
+    display: inline;
+    margin: 1cm;
+}
