@@ -3,11 +3,31 @@ body{
 }
 #depliant{
 list-style-type: none;
-text-align: right;
-margin-right: 1cm;
+text-align: center;
+margin-top: 1cm;
 }
 
 #depliant li {
     display: inline;
     margin: 1cm;
+    font-size: 25px;
+}
+#depliant a:hover{
+    color: azure;
+}
+#depliant a:visited{
+    color: azure;
+}
+h1{
+    font-weight: bolder;
+    color: azure;
+    margin-top: 5cm;
+    font-size: 3cm;
+    text-align: center;
+}
+.linkedin{
+    width: 1.7cm;
+}
+.git{
+    width: 1cm;
 }
