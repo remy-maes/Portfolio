@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(42, 44, 44);
 }
 #depliant{
 list-style-type: none;
@@ -30,4 +30,34 @@ h1{
 }
 .git{
     width: 1cm;
+}
+.photoperso{
+    width: 5cm;
+}
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+#phraseaccroche{
+    text-align: center;
+    font-size: 8mm;
 }

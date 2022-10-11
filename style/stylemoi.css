@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(42, 44, 44);
 }
 h1{
-    color: red;
+    font-weight: bolder;
+    color: azure;
+    font-size: 1cm;
+    text-align: center
 }
