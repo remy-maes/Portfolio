@@ -20,7 +20,7 @@ margin-top: 1cm;
 }
 h1{
     font-weight: bolder;
-    color: azure;
+    color: crimson;
     margin-top: 5cm;
     font-size: 3cm;
     text-align: center;
@@ -37,7 +37,6 @@ h1{
 a {
     text-decoration: none;
 }
-
 a:link {
     text-decoration: none;
 }
@@ -60,4 +59,5 @@ a:active {
 #phraseaccroche{
     text-align: center;
     font-size: 8mm;
+    color: azure;
 }
