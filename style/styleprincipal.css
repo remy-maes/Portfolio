@@ -18,7 +18,7 @@ margin-top: 1cm;
 #depliant a:visited{
     color: azure;
 }
-h1{
+#gtitre{
     font-weight: bolder;
     color: crimson;
     margin-top: 5cm;
@@ -31,11 +31,12 @@ h1{
 .git{
     width: 1cm;
 }
-.photoperso{
+#photoperso{
     width: 5cm;
 }
 a {
     text-decoration: none;
+    color: crimson;
 }
 a:link {
     text-decoration: none;
