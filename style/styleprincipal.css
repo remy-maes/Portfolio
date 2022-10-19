@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(42, 44, 44);
+    background-color: rgb(192,192,192);
 }
 #depliant{
 list-style-type: none;
@@ -13,14 +13,14 @@ margin-top: 1cm;
     font-size: 25px;
 }
 #depliant a:hover{
-    color: azure;
+    color: black;
 }
 #depliant a:visited{
-    color: azure;
+    color: black;
 }
 #gtitre{
     font-weight: bolder;
-    color: crimson;
+    color: rgb(221, 0, 0);
     margin-top: 5cm;
     font-size: 3cm;
     text-align: center;
@@ -36,7 +36,7 @@ margin-top: 1cm;
 }
 a {
     text-decoration: none;
-    color: crimson;
+    color: black;
 }
 a:link {
     text-decoration: none;
@@ -60,5 +60,5 @@ a:active {
 #phraseaccroche{
     text-align: center;
     font-size: 8mm;
-    color: azure;
+    color: black;
 }

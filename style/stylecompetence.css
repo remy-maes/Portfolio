@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(42, 44, 44);
+    background-color: rgb(192, 192, 192);
 }
 p{
     color: azure;
@@ -44,5 +44,10 @@ p {
 }
 
 .nom_skill{
+    margin-top: 2cm;
+}
+
+h3{
+    color: black;
     margin-top: 2cm;
 }
