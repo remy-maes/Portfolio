@@ -11,7 +11,6 @@ h1{
 }
 p {
     font-size: 20px;
-    margin-top: 2cm;
 }
 
 .container {
@@ -29,11 +28,11 @@ p {
     border-radius: 15px;
 }
 
-.dev {
+.html {
     width: 30%;
 }
 
-.reso {
+.css {
     width: 15%;
 }
 .coworking{
@@ -43,11 +42,34 @@ p {
     width: 50%;
 }
 
+.esp{
+    width: 80%;
+}
+
 .nom_skill{
-    margin-top: 2cm;
+   color: rgb(0, 0, 0);
 }
 
 h3{
-    color: black;
+    color: crimson;
     margin-top: 2cm;
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+.cplus{
+    width: 70%;
+}
+
+.PT{
+    width: 10%;
+}
+.ipv4{
+    width: 90%;
+}
+.com{
+    width: 85%;
+}
+.nego{
+    width: 73%;
 }
