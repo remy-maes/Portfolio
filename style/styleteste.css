@@ -1,9 +1,23 @@
 body{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(60, 60, 60);
 }
 h1{
     text-align: center;
+    color: rgb(255, 255, 255)
 }
-@keyframes identifier {
-    
+@keyframes identifier {  
+}
+.test{
+
+}
+$cd-btn: #011c37;
+$cd-txt: #15DEA5;
+.btn {
+    background: $cd-btn;
+    color: $cd-txt;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
 }

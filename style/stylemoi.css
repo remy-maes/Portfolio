@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(60, 60, 60);
 }
 h1{
     font-weight: bolder;
@@ -8,12 +8,12 @@ h1{
     text-align: center
 }
 .ctitre{
-    color: azure;
+    color: rgb(255, 0, 0);
     margin-left: 1cm;
 }
 a {
     text-decoration: none;
-    color: crimson;
+    color: rgb(255, 255, 255);
 }
 
 a:link {
@@ -34,4 +34,7 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+.texte{
+    color: rgb(255, 255, 255);
 }
