@@ -12,4 +12,18 @@ p{
 .formation{
     color: azure;
     text-transform: capitalize;
+    font-size: x-large;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+.spe{
+    color: crimson;
+}
+#imgsin{
+    margin-left: 1300px;
+    width: 150px;
+}
+#imgsio{
+    margin-left: 1000px;
+    width: 200px;
 }

@@ -11,30 +11,38 @@ h1{
     color: rgb(255, 0, 0);
     margin-left: 1cm;
 }
-a {
+.liens{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: crimson;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
+.liens:link {
     text-decoration: none;
 }
 
-a:focus {
+.liens:visited {
     text-decoration: none;
 }
 
-a:hover {
+.liens:focus {
     text-decoration: none;
 }
 
-a:active {
+.liens:hover {
+    text-decoration: none;
+}
+
+.liens:active {
     text-decoration: none;
 }
 .texte{
     color: rgb(255, 255, 255);
+}
+#presentation{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 300px;
+    color: white;
+    font-size: 25px;
 }
