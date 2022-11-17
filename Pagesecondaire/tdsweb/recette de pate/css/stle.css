@@ -1,0 +1,12 @@
+body {
+	font-family: serif;
+	color: rgb(0, 0, 0);
+}
+#lire {
+	color: red;
+	font-weight: bolder;
+}
+span.liens {
+	color: rgb(70, 219, 219);
+	text-decoration: underline;
+}
