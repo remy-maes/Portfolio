@@ -1,26 +1,65 @@
-body{
-    background-color: #eceff0;
+.header{
+    width : 600px;
+    margin : 0 auto;
+    background-color : green;
+    height : 60px;
 }
-.list{
-    background-color: #fff;
-    margin:20px auto;
-    width: 100%;
-    max-width: 500px;
-    padding:20px;
-    border-radius: 2px;
-    box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
-    box-sizing:border-box;
+ 
+.header_titre {
+    color : white;
+    text-align : center;
+    margin-bottom : -20px;
+    font-size : 28px;
 }
-
-.list .header{
-    font-family: "Shadows Into Light Two", cursive;
-    margin:0 0 10px 0;
+ 
+body {
+    margin : 0;
 }
-.item{
-    margin: 0;
-    padding: 0;
-    list-style-type:none;
+ 
+.taches_input {
+    width : 600px;
+    margin : 0 auto;
+    margin-top : 40px;
+    display : grid;
+    grid-template-columns:  8fr 2fr;
 }
-.{
-
+ 
+#inserer {
+    height : 45px;
+}
+ 
+#envoyer {
+    background-color : green;
+    height : 45px;
+}
+ 
+ 
+.taches {
+    width : 600px;
+    border: 1px solid green;
+    margin : 0 auto;
+    margin-top : 30px;
+    border-collapse : collapse
+}
+ 
+th {
+    border: 1px solid green;
+    padding : 10px;
+}
+ 
+td {
+    border : 1px solid green;
+    text-align : center;
+    padding : 10px;
+}
+ 
+.suppr {
+    color : red;
+    text-decoration : none;
+ 
+}
+ 
+.suppr:hover {
+    color : red;
+    text-decoration : none;
 }

@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,19 +14,18 @@
 <body>
     <div class="list">
         <h1 class="header">TodoList</h1>
-        <ul>
-            <li>
-                <span class="item">Pick up Shopping</span>
-                <a href="#" class="done-button">Mark as Done</a>
-            </li>
-            <li>
-                <span class"item done">Learn php</span>
-            </li>
-        </ul>
-        <form class="item-add" action="add.php" method="post">
-            <input type="text" name="name" placeholder="type a new item here." class="input" autocomplete="off" required>
-            <input type="submit" value="add" class="submit">
+        <form class="item-add" action="index.php" method="post">
+            <input type="text" name="tache" placeholder="Tapez la tâche à faire" class="input" autocomplete="off" required>
+            <input type="submit" value="Ajouter" class="submit">
         </form>
+        <?php
+            $_SESSION['taches'][]=$_POST['tache'];
+            foreach($_SESSION['taches'] AS $tache){
+                echo '<p>'.$tache.'</p>';
+            }
+        ?>
     </div>
 </body>
 </html>
+
+<?php
