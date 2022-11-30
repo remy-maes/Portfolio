@@ -1,0 +1,16 @@
+titre: Mes compétences
+corps:
+    Langues:
+        Anglais: 60
+        Espagnol: 80
+    Développement:
+        HTML: 30
+        CSS: 15
+        C: 70
+    Aptitude professionnelle:
+        Travail en équipe: 90
+        Communication: 85
+        Négociation: 73
+    Réseaux:
+        Packet Tracer: 10
+        IP-V4: 90

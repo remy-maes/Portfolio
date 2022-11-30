@@ -3,16 +3,13 @@ body{
 }
 p{
     color: azure;
+    font-size: 20px;
 }
 h1{
     color: crimson;
     text-align: center;
     font-size: 1cm;
 }
-p {
-    font-size: 20px;
-}
-
 .container {
     background-color: crimson;
     width: 80%;

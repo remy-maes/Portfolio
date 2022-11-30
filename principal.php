@@ -8,8 +8,9 @@
     </head>
     <body>
         <?php 
-         menu(); 
+        menu(); 
         accueil();
+        competence();
         ?>
         
     </body>

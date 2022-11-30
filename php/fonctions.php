@@ -23,4 +23,18 @@ function accueil(){
     echo '<img id="photoperso" src="../image/'.$accueil['image'].'">';
 }
 
+function competence(){
+    $competences=yaml_parse_file("stockage/competence.yaml");
+
+    echo '<h1>'.$competences['titre'].'</h1>';
+    foreach($competences['corps'] AS $domaine=>$tab){
+        echo '<h3>'.$domaine.'</h3>';
+        foreach($tab AS $nom=>$niveau){
+            echo '<p class="nom_skill">'.$nom.'</p>';
+            echo '<div class="container">';
+            echo '<div class="skill" style="width:'.$niveau.'%;">'.$niveau.'%</div>';
+            echo '</div>';
+        }
+    }
+}
 ?>
