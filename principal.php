@@ -8,10 +8,13 @@
     </head>
     <body>
         <?php 
-        menu(); 
-        accueil();
-        competence();
+            menu(); 
+            accueil();
+            moi();
+            competence();
+            formations();
+            //contact();
+            //xp();
         ?>
-        
     </body>
 </html>

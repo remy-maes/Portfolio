@@ -172,7 +172,15 @@ h3{
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 300px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+}
+#op{
+    color: crimson;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#cv{
+    width: 1cm;
+    margin-left: 11px;
 }

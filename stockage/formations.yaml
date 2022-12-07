@@ -1,0 +1,12 @@
+titre: Mes formations
+formation:
+    - nom: Baccalauréat
+      filiere: STI2D
+      option: système d'information et numérique
+      lieu: Campus la châtaigneraie
+      status: acquis
+    - nom: BTS
+      filiere: SIO
+      option: SLAM
+      lieu: CaenSup Saint-Ursule
+      status: en cours
