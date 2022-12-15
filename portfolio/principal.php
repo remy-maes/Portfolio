@@ -13,7 +13,7 @@
             moi();
             competence();
             formations();
-            //contact();
+            contact();
             //xp();
         ?>
     </body>

@@ -51,8 +51,56 @@ function formations(){
 }
 
 function moi(){
-    $contact=yaml_parse_file("stockage/moi.yaml");
-    echo '<h2 class="ctitre">'.$contact['titre'].'</h2>';
-    echo '<p id="presentation">'.$contact['description'].'</a>';
+    $moi=yaml_parse_file("stockage/moi.yaml");
+    echo '<h2 class="ctitre">'.$moi['titre'].'</h2>';
+    echo '<p id="presentation">'.$moi['description'].'</a>';
+}
+
+function contact(){
+    echo '<h1>Me contacter</h1>';
+    echo '<form name="mon-formulaire1" action="page-envoi.html" method="get">';
+    echo'<p>';
+    echo   '<input type="radio" name="civi" value="Mme" /> Madame';
+    echo  ' <input type="radio" name="civi" value="Mlle" /> Mademoiselle';
+    echo  ' <input type="radio" name="civi" value="Mr" /> Monsieur';
+    echo'</p>';
+    echo'<p>';
+    echo   'Votre prénom :<br />';
+    echo   '<input type="text" name="prenom" value="" />';
+    echo'</p>';
+    echo'<p>';
+    echo   'Votre nom :<br />';
+    echo  ' <input type="text" name="nom" value="" />';
+    echo'</p>';
+    echo'<p>';
+    echo   'Votre mot de passe :<br />';
+    echo  ' <input type="password" name="passe" value="" />';
+    echo'</p>';
+    echo'<p>';
+    echo   'Vous êtes<br />';
+    echo   '<select name="profil">';
+    echo      '<option value="parti">Un particulier</option>';
+    echo     ' <option value="profe" selected="selected">Un professionnel</option>';
+    echo      '<option value="insti">Un institutionnel</option>';
+    echo   '</select>';
+    echo'</p>';
+    echo'<p>';
+    echo   'Quel type de prestation recherchez vous ?<br />';
+    echo   '<input type="checkbox" name="interet" value="loc" /> Location de mobilier';
+    echo   '<input type="checkbox" name="interet" value="achat" /> Achat de mobilier';
+    echo'</p>';
+    echo'<p>';
+    echo  ' Votre message :<br />';
+    echo  ' <textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>';
+    echo'</p>';
+    echo'<p>';
+    echo  ' <input type="submit" value="Envoyer" />';
+    echo   '<input type="reset" value="Annuler" />';
+    echo'</p>';
+    echo '</form>';
+}
+
+function xp(){
+    
 }
 ?>
